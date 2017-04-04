@@ -1,0 +1,99 @@
+.logo{
+    width:100%;
+    height:100px;
+    background-color: #ddd;
+}
+.logo:before{
+    content:'';
+    display:table;
+}
+.product_reserve,.my_foot{
+    width:50%;
+    height:20px;
+    float:left;
+    text-align:center;
+}
+.pur-brain{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #009689;
+    margin:0 auto;
+    margin-top:20px;
+}
+.logo_name{
+    text-align: center;
+    margin-bottom:0;
+}
+.logo_category{
+    border:1px solid #009689;
+    border-radius: 10px;
+    width:70px;
+    height:20px;
+    line-height: 20px;
+    margin:0 auto;
+    text-align: center;
+}
+.icon{
+    color:#009689;
+}
+.logo_foot:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.logo_foot{
+    background-color: #aaa;
+    padding:5px 0;
+}
+.user_myorder{
+    width:100%;
+
+}
+.right{
+    float:right;
+}
+.myorder_top,.my_asset_top{
+    padding:5px;
+    border-bottom:1px solid #aaa;
+}
+p{
+    margin:0;
+}
+.left{
+    float:left;
+}
+.myorder_bottom,.my_asset_bottom{
+    padding:5px;
+    overflow:hidden;
+}
+.text-center{
+    padding:5px;
+    width:20%;
+}
+.myorder_bottom .icon{
+    font-size:40px;
+
+}
+.myorder_top .icon,.my_asset_top .icon{
+    font-size: 20px;
+}
+.myorder_bottom>.left>p{
+    margin-top:10px;
+}
+.myorder_bottom>.left:last-child{
+    border-left: 1px solid #aaa;
+}
+.my_asset_bottom>.left{
+      width:25%;
+  }
+.my_asset_bottom>.left>span{
+    font-size: 20px;
+}
+.user_other .icon{
+    font-size: 30px;
+}
+.user_other{
+    margin-top:10px;
+    border-top:1px solid #ddd;
+}
